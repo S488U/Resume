@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=The+Nautigal:wght@400;700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    background-color: grey;
+}
+.resume{
+    width:60%;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 17rem;
+}
+
+.contact{
+    background-color: rgb(21, 7, 65);
+    width: 30%;
+    height: 150vh;
+    color: white;
+    font-weight: 100;
+    box-shadow: 5px rgb(36, 36, 36);
+    word-wrap: break-word;
+}
+.contact img{
+    width: 50%;
+    height: 13%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 1rem auto 1rem auto;
+}
+.contact h3{
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+.contact p{
+    margin-left: 1.5rem;
+}
+.contact a{
+    text-decoration: none;
+    color:white;
+}
+.work{
+    background-color: white;
+    width: 70%;
+    height: 147.5vh;
+    color: rgb(21, 7, 65);;
+    text-align: center;
+    padding-top: 15px;
+}
+.work h1{
+    font-size: 40px;
+}
+
+.work  h1 span{
+    font-weight: 300;
+}
+.work hr{
+    border: 1px solid rgb(21, 7, 65);
+}
+.work .work-things{
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        background-color: transparent;
+    }
+    .resume{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .contact{
+        width: 30%;
+        height: 100%;
+        padding-right: 3rem;
+        margin-top: 0;
+        word-wrap: break-word;
+    }
+    .contact img{
+        width: 70%;
+        height: 5rem;
+        margin: 2rem 0 2rem auto;
+    }
+    .contact h3{
+        width: 100%;
+    }
+    .contact a{
+        color: orange;
+    }
+    .work{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+
+    }
+    .work hr{
+        width: 95%;
+    }
+}
